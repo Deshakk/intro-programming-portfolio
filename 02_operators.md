@@ -1,11 +1,11 @@
-## 02. Operators
+# 02. Operators
 
-# 1. Concept
+## 1. Concept
 
-# 2. Key C# Syntax
+## 2. Key C# Syntax
 
-# 3. Eureka Exercise/Moment
+## 3. Eureka Exercise/Moment
 
-# 4. Common Beginner Mistake
+## 4. Common Beginner Mistake
 
-# 5. Research References
+## 5. Research References
