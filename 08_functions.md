@@ -23,7 +23,7 @@ double AddTwoNumbers(double num1, double num2)
 FunctionName(); //add the parameters if there are, if none then leave it empty ()
 
 //if the function returns a value
-Console.WriteLine(AddTwoNumbers(num1,num2); //it would print the sum of num1 + num2
+Console.WriteLine(AddTwoNumbers(num1,num2)); //it would print the sum of num1 + num2
 ```
 ## 3. Eureka Exercise/Moment
 Doing the TicTacToe exercise made me realize how much time it saves me from copy-pasting and how much it improves the readability of the code.
