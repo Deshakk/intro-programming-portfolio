@@ -56,7 +56,7 @@ while(i<endValue)
 }
 ```
 ## 3. Eureka Exercise/Moment
-The loop patterns in assignment 5 
+The loop patterns in assignment 5 fully got me to understand how to make it work and what each field does
 ## 4. Common Beginner Mistake
 Common mistakes are usually logical errors, such as entering the condition incorrectly. Or even forgetting to enter a field, resulting in different outcomes.
 ## 5. Research References
