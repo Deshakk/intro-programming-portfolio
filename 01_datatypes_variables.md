@@ -6,16 +6,19 @@ There are different datatypes that we would choose depending on the information 
 ## 2. Key C# Syntax
 ```csharp
 //declaration and initialization syntax
-int myNumber = 10;
+byte myByte = 10; //Byte
+short myShort = 10; //Int16
+int myInteger = 10; //Int32
+long myLong = 10; //Int64
 
-float myFloat = 8.8f;
-double myDouble = 12.5;
+float myFloat = 8.8f;  //Single
+double myDouble = 12.5;  //Double
 
-char myChar = 'a';
+char myChar = 'a';  //Char
 
-bool myBool = true;
+bool myBool = true;  //Boolean
 
-string myString = "Faress";
+string myString = "Faress";  //String
 ```
 
 ## 3. Eureka Exercise/Moment
