@@ -27,7 +27,7 @@ switch(/*var*/)
 }
 ```
 ## 3. Eureka Exercise/Moment
-
+I understood how efficiently I could the switches insteaf of if statements with exercise #1 in assignment 4
 ## 4. Common Beginner Mistake
 A common mistake is forgetting to put the ":" after the case or using a "{" instead. Forgetting to break at the end of each case is also a regular habit for beginners.
 ## 5. Research References
