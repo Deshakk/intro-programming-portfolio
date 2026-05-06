@@ -7,44 +7,44 @@ If statements are a way to tell the program that IF a certain condition **IS TRU
 ```csharp
 if(/*condition*/)
 {
-  //do smth
+	//do smth
 }
 ```
 ### If-Else if Statement
 ```csharp
 if(/*condition 1*/)
 {
-  //do smth
+	//do smth
 }
 else if(/*condition 2*/)
 {
-  //do smth else
+  	//do smth else
 }
 ```
 ### If-Else if-Else Statement
 ```csharp
 if(/*condition 1*/)
 {
-  //do smth
+  	//do smth
 }
 else if(/*condition 2*/)
 {
-  //do smth else
+  	//do smth else
 }
 else
 {
-  //do the last possible smth
+  	//do the last possible smth
 }
 ```
 ### If-Else Statement
 ```csharp
 if(/*condition*/)
 {
-  //do smth
+  	//do smth
 }
 else
 {
-  //do smth else
+  	//do smth else
 }
 ```
 ## 3. Eureka Exercise/Moment
