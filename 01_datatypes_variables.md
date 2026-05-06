@@ -10,7 +10,7 @@ byte myByte;
 //initialize after declaring syntax
 myByte = 10;
 
-//initialization syntax
+//declaration and initialization syntax
 byte myByte = 10; //Byte
 short myShort = 10; //Int16
 int myInteger = 10; //Int32
