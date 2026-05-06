@@ -21,7 +21,7 @@ byte[]arrayName = new byte {1, 2, 3, 4, 5}; //array filled with actual values
 //with a for loop
 for (int i = 0; i < arrayName.Length;i++) //arrayName.Length gets the length of the array, so in this case, it would be 4 because the index goes from 0 to 4
 {
-  arrayName[i]=i+1; // would do i+1 on index 0 which gives 0+1 = 1;
+    arrayName[i]=i+1; // would do i+1 on index 0 which gives 0+1 = 1;
 }
 ```
 ## 3. Eureka Exercise/Moment
