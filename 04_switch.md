@@ -6,24 +6,24 @@ The Switch is another way to make a fork in the program. If you want to switch w
 ```csharp
 switch(/*var*/)
 {
-  case /*value 1*/: //if value 1 is true, go into the case
-    //instructions here
-    break; //break out of the switch
-  case /*value 2*/: //if value 2 is true, go into the case
-    //instructions here
-    break; //break out of the switch
+		case /*value 1*/: //if value 1 is true, go into the case
+      //instructions here
+      break; //break out of the switch
+    case /*value 2*/: //if value 2 is true, go into the case
+      //instructions here
+      break; //break out of the switch
 }
 ```
 You can also have a default case that acts as an else block
 ```csharp
 switch(/*var*/)
 {
-  case /*value 1*/:   //if value 1 is true, go into the case
-    //instructions here
-    break;
-  default: //if no other case is true, default to here
-    //instructions here
-    break; //break out of the switch
+    case /*value 1*/:   //if value 1 is true, go into the case
+      //instructions here
+      break;
+    default: //if no other case is true, default to here
+      //instructions here
+      break; //break out of the switch
 }
 ```
 ## 3. Eureka Exercise/Moment
