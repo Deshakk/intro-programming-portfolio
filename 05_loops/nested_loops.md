@@ -6,11 +6,11 @@ A nested loop is just a loop inside another loop, each taking care of something 
 ```csharp
 for(int i=1; i<=5; i++) //outer loop
 {
-  for(int j=1; j<=5; j++) //inner loop
-  {
-    Console.WriteLine($"Row {i], Column {j}");
-  }
-  Console.WriteLine(); //goes to the next row
+    for(int j=1; j<=5; j++) //inner loop
+    {
+        Console.WriteLine($"Row {i], Column {j}");
+    }
+    Console.WriteLine(); //goes to the next row
 }
 ```
 ## 3. Eureka Exercise/Moment
