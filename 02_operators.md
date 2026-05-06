@@ -1,7 +1,7 @@
 # 02. Operators
 
 ## 1. Concept
-There are three different types of operators: arithmetic operators, relational operators and conditional logic operators. Arithmetic Operators are the (+, -, *, /, %) which are used to evaluate to a number or char. Relational Operators are the (<, <=, >=, >, ==, !=) which are used to evaluate to a boolean value, true or false. and the Conditional Operators are the (&&, ||, !) which are used to evaluate two expressions into a true or false value. The Modulo is a bit unique as it is used to find the remainder, (for example; 4%3 = 1 because 4/2 = 2 and there's still a remainder of 1 that can't get divided)
+There are three different types of operators: arithmetic operators, relational operators and conditional logic operators. Arithmetic Operators are the (+, -, *, /, %), which are used to evaluate to a number or a char. Relational Operators are the (<, <=, >=, >, ==, !=) which are used to evaluate to a boolean value, true or false. and the Conditional Operators are the (&&, ||, !), which are used to evaluate two expressions into a true or false value. The Modulo is a bit unique as it is used to find the remainder (for example, 4%3 = 1 because 4/2 = 2 and there's still a remainder of 1 that can't get divided)
 ## 2. Key C# Syntax
 ### Arithmetic Operators
 ```csharp
@@ -27,9 +27,9 @@ x%=n; //compound assignment
 ### Relational Operators
 ```csharp
 x<n //x stictly less than n
-x<=n //x stricly less or equal than n
+x<=n //x strictly less than or equal to n
 x>n //x stictly greater than n
-x>=n //x stricly greater or equal than n
+x>=n //x strictly greater than or equal to n
 x==n //x equal to n
 x!=n //x not equal to n
 ```
