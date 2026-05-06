@@ -7,17 +7,17 @@ The Do-While is one of the ways to loop in a program. The program goes through t
 ```csharp
 do
 {
-  //do smth until we see a break in the program
+    //do smth until we see a break in the program
 }while (true); //because the condition is true, the loop is infinite
 ```
 ### Validation
 ```csharp
 do
 {
-  Console.Write("Enter a number between 1 and 10: "); //prompt the user
-  num = Convert.ToByte(Console.ReadLine()); //Read it, assuming its correct
+    Console.Write("Enter a number between 1 and 10: "); //prompt the user
+    num = Convert.ToByte(Console.ReadLine()); //Read it, assuming its correct
 
-  validInput = num >= 1 && num <= 10;
+    validInput = num >= 1 && num <= 10;
 
 }while(validInput == false); // set the condition accordingly (if the input is false, repeat the prompt)
 //}while (!(num >= 1 && num <=10)); //!validInput --> invalidInput
@@ -27,10 +27,10 @@ do
 ```csharp
 do
 {
-  //The entire game program
-  //prompt if the user would like to go again and validate
-  Console.WriteLine("Would you like to play again? (y/n)");
-  ans = Convert.ToChar(Console.ReadLine());
+    //The entire game program
+    //prompt if the user would like to go again and validate
+    Console.WriteLine("Would you like to play again? (y/n)");
+    ans = Convert.ToChar(Console.ReadLine());
 
 }while (ans == 'y');
 //}while (ans.Equals('y'));
