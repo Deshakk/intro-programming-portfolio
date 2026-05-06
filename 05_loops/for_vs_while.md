@@ -11,32 +11,32 @@ The For and While loops both loop a certain action, a certain number of times; h
 ```csharp
 for (int i= startValue; i< endValue; i++)
 {
-  Console.WriteLine("do something");
+    Console.WriteLine("do something");
 
-  //1 initialize
-  //2 check condition
-  //3 do program inside the loop
-  //4 increment value
-  //5 repeat steps 2-4 until condition is false
+    //1 initialize
+    //2 check condition
+    //3 do program inside the loop
+    //4 increment value
+    //5 repeat steps 2-4 until condition is false
 }
 ```
 You can also keep fields empty in the header
 ```csharp
 for( ; ; )
 {
-  //infinite loop
+    //infinite loop
 }
 for(   ; i<endValue; i++)
 {
-  //missing initialization and assumed it's already declared
+    //missing initialization and assumed it's already declared
 }
 for(int i = startValue;  ;i++)
 {
-  //missing condition, the loop has no stop to it will loop forever until there's a break or return
+    //missing condition, the loop has no stop, so it will loop forever until there's a break or return
 }
 for(int i = startValue; i<endValue; )
 {
-  //missing increment, the loop will not update the counter, which results in only 1 iteration
+    //missing increment, the loop will not update the counter, which results in only 1 iteration
 }
 ```
 ### While Loop
@@ -44,15 +44,15 @@ for(int i = startValue; i<endValue; )
 int i = startValue;
 while(i<endValue)
 {
-  Console.WriteLine("do something");
-
-  i += someValue;
-
-  //1 initialize
-  //2 check condition
-  //3 do program inside the loop
-  //4 increment value
-  //5 repeat steps 2-4 until condition is false
+    Console.WriteLine("do something");
+  
+    i += someValue;
+  
+    //1 initialize
+    //2 check condition
+    //3 do program inside the loop
+    //4 increment value
+    //5 repeat steps 2-4 until condition is false
 }
 ```
 ## 3. Eureka Exercise/Moment
