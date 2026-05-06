@@ -7,9 +7,9 @@ A struct is a value type that groups multiple values into one structure for easy
 ```csharp
 struct Student //PascalCase
 {
-  public long ID; //PascalCase notation
-  public string Name;
-  public float GPA;
+    public long ID; //PascalCase notation
+    public string Name;
+    public float GPA;
 }
 ```
 ### Declaring the values
@@ -24,9 +24,9 @@ s1.GPA = 4.0f;
 //easier to use a function
 void DisplayStudentInfo(Student aStudent) //aStudent = s1
 {
-  Console.WriteLine(aStudent.ID);
-  Console.WriteLine(aStudent.Name);
-  Console.WriteLine(aStudent.GPA);
+    Console.WriteLine(aStudent.ID);
+    Console.WriteLine(aStudent.Name);
+    Console.WriteLine(aStudent.GPA);
 }
 ```
 ## 3. Eureka Exercise/Moment
