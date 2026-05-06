@@ -1,7 +1,7 @@
 # 07. 2D Arrays
 
 ## 1. Concept
-2D arrays are the same as a regular array, except they are in a grid. To print out a 2D array, you need a nested loop. The inner and outer loops work together to situate the location of the index. For example, (0,0) would be the index on the 1st row and 1st column.
+2D arrays are the same as a regular array, except they are in a grid. To print out a 2D array, you need a nested loop. The inner and outer loops work together to situate the location of the index. For example, [0,0] would be the index on the 1st row and 1st column.
 ## 2. Key C# Syntax
 ```csharp
 datatype[,] varName = new datatype [3,5]; //intializing the 2D array
